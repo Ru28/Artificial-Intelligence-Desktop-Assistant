@@ -116,7 +116,7 @@ if __name__=="__main__":
             codePath="C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
             os.startfile(codePath)
         
-        elif 'email to rupesh' in query:
+        elif 'email to xyzPerson' in query:
             try:
                 speak("what should I say?")
                 content=takeCommand()
