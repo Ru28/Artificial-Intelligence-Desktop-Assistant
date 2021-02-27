@@ -1,5 +1,5 @@
 # Artificial-Intelligence-Desktop-Assistant
-Jarvis AI Desktop Voice Assistant 
+AI Desktop Voice Assistant 
 
 Required Modules in for this Jarvis AI Desktop Assistant, you can install these modules following command
 
