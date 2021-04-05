@@ -154,16 +154,20 @@ if __name__ == "__main__":
 In the above code, we have used an if statement to check whether Wikipedia is in the search query of the user or not. If Wikipedia is found in the user's search query, then two sentences from the summary of the Wikipedia page will be converted to speech with the speak function's help.
 ### Defining Task 2: To open YouTube site in a Web-browser
 To open any website, we need to import a module called webbrowser. It is an in-built module, and we do not need to install it with a pip statement; we can directly import it into our program by writing an import statement.
-Code: 
+
+#### Code: 
 ```python
      elif 'open youtube' in query:
             webbrowser.open("youtube.com")
  ```
 Here, we are using the elif loop to check whether Youtube is in the user's query. Let' suppose the user gives a command as "J.A.R.V.I.S., open youtube." So, open youtube will be in the user's query, and the elif condition will be true.
+
+### Defining Task 3: To open Google site in a web-browser
 ```python
      elif 'open google' in query:
             webbrowser.open("google.com")
-```
+``` 
+
 We are opening Google in a web-browser by applying the same logic that we used to open youtube. 
 ### Defining Task 4: To play music
 To play music, we need to import a module called os. Import this module directly with an import statement.
@@ -209,7 +213,7 @@ To send an email, we need to import a module called smtplib.
 * Simple Mail Transfer Protocol (SMTP) is a protocol that allows us to send emails and to route emails between mail servers. An instance method called <b>sendmail</b> is present in the SMTP module. This instance method allows us to send an email. 
 ##### It takes 3 parameters:
 * <b>The sender</b>: Email address of the sender.
-* <b>The receiver</b>: T Email of the receiver.
+* <b>The receiver</b>: Email of the receiver.
 * <b>The message</b>: A string message which needs to be sent to one or more than one recipient.
 
 ## Defining Send email function :
